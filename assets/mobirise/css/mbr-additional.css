@@ -42,10 +42,10 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 2.88rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1372,6 +1372,42 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
+.cid-qYpzZAnS9y {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qYpzZAnS9y .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-qYpzZAnS9y .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-qYpzZAnS9y .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-qYpzZAnS9y .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-qYpzZAnS9y .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+.cid-qVQaaY1Ukr {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/matuoka-1.gif");
+}
 .cid-qVQ0jJJI9u {
   background-image: url("../../../assets/images/mbr-1620x1080.jpg");
 }
@@ -1778,9 +1814,6 @@ body {
 .cid-qVQdyy0l45 .nav-link:hover,
 .cid-qVQdyy0l45 .dropdown-item:hover {
   color: #767676 !important;
-}
-.cid-qVQaaY1Ukr {
-  background-image: url("../../../assets/images/matuoka-1.gif");
 }
 .cid-qVPhq77IOS {
   padding-top: 30px;
